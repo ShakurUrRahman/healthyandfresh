@@ -12,7 +12,6 @@ body {
 header {
     display: flex;
     flex-direction: row-reverse;
-
     color: coral;
     background-image: linear-gradient(#4E4D49, #151515);
     justify-content: space-evenly;
@@ -21,16 +20,15 @@ header {
 .abgimage {
 
     width: 100%;
-    height: 110vh;
+    height: 120vh;
 }
 
 .headerbox {
     border: 40px inset coral;
     border-radius: 15px;
-    padding: 150px;
+    padding: 120px;
     padding-top: 190px;
     color: wheat;
-
 }
 
 .main-heading {
@@ -53,10 +51,96 @@ header {
     border-radius: 10px;
     font-size: 25px;
     font-weight: bold;
-
 }
 
 .buttonbox {
     padding-top: 20px;
+}
 
+
+
+.buttonbox a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttonbox a:hover {
+    font-weight: bolder;
+}
+
+.menu-container {
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.company-name h1 a {
+    text-decoration: none;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    padding-left: 150px;
+}
+
+.menu-list li {
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.menu-list li a:hover {
+    color: #d13b6d;
+}
+
+.about-us {
+    background-image: url(images/shapes/7.png);
+    height: 80vh;
+}
+
+.abtus-title {
+    padding: 30px 0px 30px 100px;
+}
+
+.para p {
+    padding: 10px 50px;
+}
+
+.our-services {
+    padding: 10px 50px;
+    text-align: center;
+    background-color: #e0ecdf
+}
+
+.main-heading {
+    padding-top: 30px;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.boxpara {
+    padding: 40px;
+    border: 10px inset coral;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.contact-us {
+    text-align: right;
+    background-image: url(images/shapes/8.jpg);
+    padding-right: 50px;
 }
